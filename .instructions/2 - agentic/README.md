@@ -4,6 +4,8 @@
 3. Ensure Sonnet 4 is selected as the LLM to use
 4. Add the Github MCP in remote mode
 5. Ensure the vscode terminal integration works. Ask Copilot to test it out.
+6. Adjust the tech stack you would like to demo with in `.github/copilot-instructions.md`. It's recommended to choose something you're somewhat familar with.
+7. Adjust any instructions for the llm as required in `.github/copilot-instructions.md`
 
 # Workflow
 1. We will implement https://github.com/deanillfeld/ai-assisted-development-demo/issues/1
@@ -22,4 +24,4 @@
 
 5. Show how you still have control and shouldnt just blindly trust the LLM, show how you can have it only work on 1 piece at a time rather than completing every step at once which is hard to follow.
 
-6. Show how you have control over what commands it runs, or API calls it makes. However in the interest of speed you also have the ability to tell the LLM it has free reign to use a tool without your approval. 
+6. Show how you have control over what commands it runs, or API calls it makes. However in the interest of speed you also have the ability to tell the LLM it has free reign to use a tool without your approval.

@@ -2,6 +2,8 @@
 1. Ensure that the Github Copilot extension is installed and logged in
 2. Ensure Copilot is in edit mode
 3. Ensure Sonnet 4 is selected as the LLM to use
+4. Adjust the tech stack you would like to demo with in `.github/copilot-instructions.md`. It's recommended to choose something you're somewhat familar with.
+5. Adjust any instructions for the llm as required in `.github/copilot-instructions.md`
 
 # Workflow
 1. We will implement https://github.com/deanillfeld/ai-assisted-development-demo/issues/1

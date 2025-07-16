@@ -72,17 +72,18 @@ The API will be available at `http://localhost:3000`.
 ## Project Structure
 
 ```
-├── src/
-│   ├── controllers/     # HTTP request handlers
-│   ├── services/        # Business logic
-│   ├── middleware/      # Express middleware
-│   ├── routes/          # Route definitions
-│   ├── types/           # TypeScript type definitions
-│   └── app.ts           # Main application entry point
-├── tests/               # Test files
-├── prisma/              # Database schema and migrations
-├── docker-compose.yml   # PostgreSQL setup
-└── dist/                # Built JavaScript files
+├── controllers/         # HTTP request handlers
+├── services/           # Business logic
+├── middleware/         # Express middleware
+├── routes/             # Route definitions
+├── types/              # TypeScript type definitions
+├── tests/              # Test files
+├── prisma/             # Database schema and migrations
+├── docker-compose.yml  # PostgreSQL setup
+├── package.json        # Dependencies
+├── tsconfig.json       # TypeScript configuration
+├── app.ts              # Main application entry point
+└── dist/               # Built JavaScript files
 ```
 
 ## Development Status

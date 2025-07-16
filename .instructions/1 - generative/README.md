@@ -18,5 +18,3 @@
 3. There isnt a complete feedback loop, the LLM cant know if what it wrote on its first try even works. You need to go install any dependencies, run the tests and then provide the LLM with explicit feedback to fix any issues and then try again.
 
 4. What if there was a more efficient way that didnt require you to be the gopher and do all the legwork for the LLM? Introducing Agentic AI.
-
-# Presenter Hints
